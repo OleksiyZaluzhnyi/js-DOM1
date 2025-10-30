@@ -52,3 +52,11 @@ function calculate(operation) {
     resultField.textContent = `Результат: ${result}`;
     resultField.style.color = "green";
 }
+
+
+function reset() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "Результат: —";
+    document.getElementById("result").style.color = "Black";
+}
